@@ -1,0 +1,29 @@
+.arqui {
+  border-radius: 0.25rem !important;
+  padding: 3rem !important;
+  background-color: rgba(255,255,255,.85)
+}
+ul.social-buttons {
+  margin-bottom: 0;
+  display: inline-flex;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #f6b001;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+
